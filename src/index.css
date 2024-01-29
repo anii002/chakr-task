@@ -1,0 +1,408 @@
+.App {
+  background-color: var(--Off-White, #f6f6f3);
+}
+a{
+  text-decoration: none !important;
+}
+.has-search .form-control {
+  font-family: Inter;
+  padding-left: 2.65rem;
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid var(--Light-Gray, #f1f1f1);
+  background: var(--White, #fff);
+  color: Mid Gray;
+  width: 88%;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 1.275rem;
+  height: 1.375rem;
+  line-height: 1.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  margin-top: 9px;
+  left: 42px;
+}
+.sidebar-sticky {
+  padding: 15px;
+}
+.sidebar-sticky .orange .dot {
+  left: 10px;
+}
+.sidebar-sticky ul li a {
+  text-decoration: none;
+  font-family: Inter;
+  color: #000000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+.sidebar-sticky ul li a:hover {
+  color: #ffa500;
+}
+.sidebar-sticky ul li .logout {
+  color: #b01212;
+}
+.sidebar-sticky ul li .image-sec img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.sidebar-sticky ul li .name p {
+  color: var(--Black, #131313);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.25px;
+  margin: 0;
+}
+.sidebar-sticky ul .admin {
+  padding-top: 100px;
+}
+.sidebar-sticky ul li .name a {
+  font-family: Inter;
+  margin: 0;
+  background: var(--Mid-Orange, #ffcd71);
+  border-radius: 24px;
+  text-decoration: none;
+  color: var(--Black, #131313);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.Revenues {
+  width: 412px;
+  background-color: #ffffff;
+}
+.Revenues .title {
+  color: var(--Black, #131313);
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+
+.Revenues .percent {
+  margin: 0;
+  color: var(--Black, #131313);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -2px;
+}
+.Revenues .sub-title {
+  color: var(--Dark-Gray, #454545);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.Revenues .report {
+  margin-bottom: 0 !important;
+  color: var(--Dark-Orange, #734a00);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.quarter {
+  width: 260px;
+  background-color: #ffffff;
+}
+.quarter .title {
+  text-decoration: none;
+  color: var(--Black, #131313);
+  justify-content: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+.quarter .report {
+  margin-bottom: 0 !important;
+  color: var(--Dark-Orange, #734a00);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+
+.custom-dropdown .dropdown-toggle:hover {
+  border: none;
+}
+.custom-dropdown .dropdown-toggle {
+  margin: 0;
+  padding: 0;
+}
+.custom-dropdown .dropdown-toggle p {
+  margin: 0;
+  color: var(--Dark-Gray, #454545);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.custom-dropdown .dropdown-toggle .default-item {
+  color: var(--Dark-Gray, #454545);
+  font-size: 16px;
+  font-weight: 500;
+}
+.customers .title {
+  margin: 0;
+  color: var(--Black, #131313);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+.customers .users{
+  padding: 16px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 16px;
+}
+.customers .users:hover {
+  padding: 16px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: var(--Light-Orange, #fff7e8);
+}
+.customers .users  .image-sec img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.customers p {
+  color: var(--Dark-Orange, #734a00);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  margin-bottom: 0;
+}
+.users  .detail .name p {
+  margin: 0;
+  color: var(--Black, #131313);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.users  .detail .name a {
+  color: var(--Dark-Gray, #454545);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+
+/* .growth */
+.growth {
+  padding-left: 10px;
+}
+.growth .month-sec,
+.growth .year-sec,
+.growth .buyer-sec {
+  width: 191px;
+  background-color: #ffffff;
+}
+.growth .month-sec .title,
+.growth .year-sec .title,
+.growth .buyer-sec .title {
+  color: var(--Mid-Gray, #7d7d7d);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+.growth .month-sec .month,
+.growth .year-sec .month {
+  color: var(--Dark-Orange, #734a00);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  margin-bottom: 0;
+  padding-top: 15px;
+}
+.growth .month-sec .year,
+.growth .year-sec .year {
+  color: var(--Orange, #ffa500);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  padding: 0;
+  margin: 0 !important;
+}
+
+.growth .buyer-sec .detail .image-sec img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.growth .buyer-sec .detail .name p {
+  margin: 0;
+  padding: 0;
+  color: var(--Black, #131313);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.growth .buyer-sec .detail .name a {
+  margin: 0;
+  padding: 0;
+  color: var(--Dark-Gray, #454545);
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* chat-sec */
+.chat-sec,
+.top-state-sec {
+  width: 318px;
+  background-color: #ffffff;
+}
+.Newdeals-sec {
+  width: 440px;
+  background-color: #ffffff;
+}
+.chat-sec p,
+.top-state-sec p,
+.Newdeals-sec p {
+  color: var(--Black, #131313);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  margin: 0 !important;
+}
+.chat-sec a {
+  color: var(--Dark-Gray, #454545);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  margin: 0 !important;
+}
+.chat-sec .image-sec a {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  background: var(--Light-Orange, #fff7e8);
+}
+.chat-sec .image-sec a .activedot {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  right: 14px;
+  top: 15.388px;
+}
+.chat-sec .image-sec img {
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.Newdeals-sec a {
+  display: flex;
+  padding: 5px 16px 5px 12px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--Dark-Orange, #734a00);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  border-radius: 16px;
+  background: var(--Light-Orange, #fff7e8);
+}
+.Newdeals-sec a:not(:first-child) {
+  margin-left: 10px;
+}
+/* half-round-progress-bar */
+.semicircle-container span {
+  color: var(--Black, #131313);
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.592px;
+}
+.top-state-sec .bar-info p {
+  margin: 0;
+  position: absolute;
+  padding: 10px 10px;
+  color: var(--Black, #131313);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.top-state-sec .bar-info .abc {
+  background-color: #fff;
+}
