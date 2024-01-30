@@ -68,14 +68,14 @@ function Dashboard() {
                                 <a> Supermarket Villanova</a>
                             </div>
                         </div>
-                        <div>
+                        {/* <div>
                             <a href="#"><img className="px-2" src={images.msg} alt="msg" /></a>
                             <a href="#"> <img className="px-2" src={images.star} alt="star" /></a>
                             <a href="#"><img className="px-2 " src={images.pen} alt="pen" /></a>
                             <a href="#"> <img src={images.more} alt="more" /></a>
-                        </div>
+                        </div> */}
                     </div>
-                    <div className="users  d-flex justify-content-between align-items-center mb-3 mx-2">
+                    <div className="users users-bg  d-flex justify-content-between align-items-center mb-3 mx-2">
                         <div className="d-flex detail">
                             <div className="image-sec">
                                 <img src={images.icon} alt="img" />
@@ -102,12 +102,12 @@ function Dashboard() {
                                 <a> Supermarket Villanova</a>
                             </div>
                         </div>
-                        <div>
+                        {/* <div>
                             <a href="#"><img className="px-2" src={images.msg} alt="msg" /></a>
                             <a href="#"> <img className="px-2" src={images.star} alt="star" /></a>
                             <a href="#"><img className="px-2 " src={images.pen} alt="pen" /></a>
                             <a href="#"> <img src={images.more} alt="more" /></a>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="users  d-flex justify-content-between align-items-center mb-3 mx-2">
                         <div className="d-flex detail">
@@ -119,12 +119,12 @@ function Dashboard() {
                                 <a> Supermarket Villanova</a>
                             </div>
                         </div>
-                        <div>
+                        {/* <div>
                             <a href="#"><img className="px-2" src={images.msg} alt="msg" /></a>
                             <a href="#"> <img className="px-2" src={images.star} alt="star" /></a>
                             <a href="#"><img className="px-2 " src={images.pen} alt="pen" /></a>
                             <a href="#"> <img src={images.more} alt="more" /></a>
-                        </div>
+                        </div> */}
                     </div>
                     <p className="px-3 mt-2">All customers <img src={images.sharetir} alt="share" /></p>
                 </div>

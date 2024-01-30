@@ -188,7 +188,7 @@ a{
   align-self: stretch;
   border-radius: 16px;
 }
-.customers .users:hover {
+.customers  .users-bg {
   padding: 16px;
   align-items: center;
   gap: 12px;
