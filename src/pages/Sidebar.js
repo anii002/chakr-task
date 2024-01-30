@@ -3,7 +3,7 @@ import images from "../images/index";
 
 function sidebar() {
     return (
-        <div className="col-lg-2 sidebar pt-2 m-0" >
+        <div className="col-lg-2 col-sm-3 sidebar pt-2 m-0" >
             <div className="sidebar-sticky  m-0 bg-white rounded-3">
                 <ul className="nav flex-column px-1">
                     <li className="position-relative orange">

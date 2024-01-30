@@ -406,3 +406,33 @@ a{
 .top-state-sec .bar-info .abc {
   background-color: #fff;
 }
+
+/* @media (max-width:575px) {
+  .Revenues {
+    width: 100%;
+  }
+  .quarter {
+    width: 100%;
+  }
+  .main {
+    justify-content: space-around;
+  }
+  .customers {
+    margin-bottom: 4px;
+  }
+}
+
+@media (max-width: 479px) {
+  .Revenues {
+    width: 100%;
+  }
+  .quarter {
+    width: 100%;
+  }
+  .main {
+    justify-content: space-around;
+  }
+  .customers {
+    margin-bottom: 4px;
+  }
+} */

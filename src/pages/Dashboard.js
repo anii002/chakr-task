@@ -20,7 +20,7 @@ function Dashboard() {
 
     return (
         <div className="ml-sm-auto col-lg-10 p-2" >
-            <div className="d-flex flex-wrap justify-content-between col-lg-12">
+            <div className="d-flex main flex-wrap justify-content-between col-lg-12">
                 <div className="Revenues  rounded-3 p-3">
                     <a className="title">Revenues</a>
                     <p className="percent mt-2">15% <img src={images.upperarrow} alt="arrow" /></p>
@@ -35,7 +35,8 @@ function Dashboard() {
                 </div>
                 <div className="quarter  rounded-3  p-3">
                     <a className="title d-flex justify-content-center">Quarter goal</a>
-                    <div className="d-flex justify-content-center mt-3 mb-4" > <SemiCircleProgressBar
+                    <div className="d-flex justify-content-center mt-3 mb-4" >
+                        <SemiCircleProgressBar
                         stroke="#FFCD71" background="#FFF7E8" strokeWidth="19" percentage={84} showPercentValue
                     />
                     </div>
@@ -43,7 +44,7 @@ function Dashboard() {
                 </div>
             </div>
             <div className="d-flex flex-wrap  justify-content-between pt-2 col-lg-12">
-                <div className="col-lg-6 customers bg-white rounded-3 p-3">
+                <div className="col-lg-6 col-sm-12 customers bg-white rounded-3 p-3">
                     <div className="d-flex justify-content-between align-items-center mb-3 px-2">
                         <p className="title">Customers</p>
                         <Dropdown className="custom-dropdown">
@@ -127,7 +128,7 @@ function Dashboard() {
                     </div>
                     <p className="px-3 mt-2">All customers <img src={images.sharetir} alt="share" /></p>
                 </div>
-                <div className="col-lg-6 growth rounded-3">
+                <div className="col-lg-6 col-sm-12 growth rounded-3">
                     <div className="mb-2 customers bg-white rounded-3 p-3 ">
                         <div className="d-flex justify-content-between align-items-center px-2">
                             <p className="title">Growth</p>
@@ -195,7 +196,7 @@ function Dashboard() {
                         </a>
                     </div>
                 </div>
-                <div className="top-state-sec bg-white   rounded-3  p-4">
+                <div className="top-state-sec bg-white  rounded-3  p-4">
                     <p>Top states</p>
                     <div className="bar-info">
                         <p>NY</p>
